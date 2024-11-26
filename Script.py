@@ -18,12 +18,18 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/im_kuttu_bot><b>Kuttu Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GreyMatter_Owner><b>GreyMatter's</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : Koyeb\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/wudixh14><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+    ABOUT_TXT = """<b><i>🤖 My Naᴍᴇ : <a href=https://t.me/im_kuttu_bot><b>Kuttu Bot</b></a>
+    
+👨‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/im_goutham_josh><b>Goutham Josh</b></a>
+
+📝 Lᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
+
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
+
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : Koyeb
+
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/wudixh14><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 2.0\n</b></i>"""
     
     SOURCE_TXT = """
