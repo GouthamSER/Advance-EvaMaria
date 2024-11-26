@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 I'm OTT Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<blockquote><b>Hello {} 👋🏻  I can share Movies and Series 😁.</b></blockquote>
 
 <i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
@@ -21,17 +21,16 @@ class script(object):
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/GreyMatter_Bots><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/wudixh14><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will Create One Bot For You<b>
-» Contact Me @GreyMatter_Owner<b>"""
+» Now PRivaTE """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Search Bot should have admin privillage.
+1. Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -46,7 +45,7 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Search Bot supports buttons with any telegram media type.
+2. Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
@@ -117,3 +116,9 @@ This module only works for my admins
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
 """
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+FɪʟᴇSɪᴢᴇ : {file_size}
+
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+▫️<a href=https://t.me/wudixh> ᴇʟᴅᴏʀᴀᴅᴏ </a>
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
