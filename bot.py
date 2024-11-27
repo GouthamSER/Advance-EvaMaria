@@ -15,6 +15,15 @@ from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR
 from utils import temp
 from typing import Union, Optional, AsyncGenerator
 from pyrogram import types
+
+# for prevent stoping the bot after 1 week
+logging.getLogger("asyncio").setLevel(logging.CRITICAL -1)
+
+# peer id invaild fixxx
+from pyrogram import utils as pyroutils
+pyroutils.MIN_CHAT_ID = -999999999999
+pyroutils.MIN_CHANNEL_ID = -100999999999999
+
 from plugins.webcode import bot_run
 from aiohttp import web as webserver
 from os import environ
@@ -51,6 +60,7 @@ class Bot(Client):
         bind_address = "0.0.0.0"
         await webserver.TCPSite(client, bind_address,
         PORT_CODE).start()
+        print("Repo Optimized By Goutham Josh \n Thanku Sir")
 
     async def stop(self, *args):
         await super().stop()
