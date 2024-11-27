@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/8619a6f258621134b7576.jpg https://telegra.ph/file/d8daf35960bbb4a7f8558.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/23f226130bfdc3ef0baad.jpg https://telegra.ph/file/7a264da82c92e56430feb.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -75,10 +75,10 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/OTT_Updated"
+DOWNLOAD_TEXT_URL = "https://t.me/wudixh14"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://youtube.com/@GreyMattersYT"
+CAPTION_BUTTON_URL = "https://youtube.com/@killadi_chandu"
 
    # Auto Delete For Bot Sending Files #
